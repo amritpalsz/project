@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Snake Game</title>
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="snake.css">
+</head>
+<body>
+    <header>
+        <h1>Snake Game</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <canvas id="gameCanvas" width="400" height="400"></canvas>
+        <div id="score">Score: 0</div>
+        <div id="gameMessage" class="game-message"></div>
+        <button id="resetButton">Reset</button>
+        <button id="startButton">Start Game</button>
+    </main>
+    
+    <footer>
+        <p>&copy; 2024 Retro Arcade. All rights reserved.</p>
+        <p>Snake game adapted from <a href="https://gist.github.com/straker/ff00b4b49669ad3dec890306d348adc4">Kevin Straker's Snake game</a> under the MIT License.</p>
+    </footer>
+
+    <script src="snake.js"></script>
+</body>
+</html>
